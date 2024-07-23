@@ -153,7 +153,7 @@ $(function() {
     e.preventDefault();
 
       $.ajax({
-          url: "https://formspree.io/anthony.hoffman.dev@gmail.com",
+          url: "https://formspree.io/tomas.zamora.dev@gmail.com",
           method: "POST",
           data: { message: $('form').serialize() },
           dataType: "json"
